@@ -1,0 +1,21 @@
+{
+  "name": "html-react",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "init": "confy-core init --env=development",
+    "start": "confy-core start --env=development",
+    "build": "confy-core build --env=production",
+    "build-app": "confy-core build --env=production --build-app",
+    "test": "confy-core test --env=test",
+    "config": "confy-core show-config --env=development"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@confy/core": "^0.5.1",
+    "@confy/preset-react": "^0.3.2",
+    "@confy/preset-sass": "^0.1.2",
+    "nw-builder-webpack-plugin": "^1.0.2"
+  }
+}
